@@ -59,6 +59,39 @@ body {
   top: 8px;
 }
 
+/* slider (carousel) */
+.carousel-item{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide-one{
+  width: 115%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./1.jpg);
+  height: 80vw;
+  max-height: 100vh;
+}
+.slide-two{
+  background-image: url(./6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 69%;
+  height: 80vw;
+  max-height: 100vh;
+}
+.slide-three{
+  background-image: url(./3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 44%;
+  height: 80vw;
+  max-height: 100vh;
+}
+
+
 /* hamburger-navbar */
 .fa-1x {
   font-size: 1.5rem;

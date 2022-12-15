@@ -72,6 +72,7 @@ body {
   background-size: cover;
   background-image: url(./1.jpg);
   height: 80vw;
+  margin-left: -55px;
   max-height: 100vh;
 }
 .slide-two{
